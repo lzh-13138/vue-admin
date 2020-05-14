@@ -1,0 +1,24 @@
+@import url('./normalize.css');
+
+:root{
+font-size: 14px;	
+--mc:ec586a;
+}
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: "Microsoft YaHei";
+}
+a{
+	text-decoration: none;
+}
+img{
+vertical-align: middle;
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
